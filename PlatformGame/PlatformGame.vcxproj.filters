@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\EmptyPoint">
+      <UniqueIdentifier>{05908141-38b8-4743-8e39-bc24e0a50107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework">
+      <UniqueIdentifier>{5c6d4970-68fb-4c6a-bb17-eca1fe46f061}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Bitmap">
+      <UniqueIdentifier>{a25ea35c-bd83-47a8-ae64-edda98161616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\GameDirector">
+      <UniqueIdentifier>{d829cf48-907a-4bcb-bb71-302bf950ee5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\PrepareWind">
+      <UniqueIdentifier>{6251ecd8-3d2b-49b8-bb1a-d3500d2fb5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\WrappedWind">
+      <UniqueIdentifier>{de4a63cb-19e6-448e-8802-bbf8e1636685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene">
+      <UniqueIdentifier>{01b0e996-ef5c-4a2f-9235-ba965eb4d853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\SceneManager">
+      <UniqueIdentifier>{c04c7f9e-efa5-44b1-867b-53c2af30558f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\MenuScene">
+      <UniqueIdentifier>{41b69222-ccab-41a2-a782-e18b4b218373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\GameScene">
+      <UniqueIdentifier>{c557fdb5-ca0f-4cd8-a8fe-a80ee1c52a3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object">
+      <UniqueIdentifier>{09fab2e9-0c80-42eb-ada8-236f2e1cf419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\AbstractClass">
+      <UniqueIdentifier>{2b150e73-a41d-4bea-b4bc-9851d2218ca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\Background">
+      <UniqueIdentifier>{7b100496-6449-4c0f-9e75-16d962daf039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\Button">
+      <UniqueIdentifier>{99a58426-eb7d-4f2e-afd1-8596d04951b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\Monster">
+      <UniqueIdentifier>{d8200a98-e823-44a4-a61b-6c1701b22eb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\Character">
+      <UniqueIdentifier>{00ccb65c-daf8-40fc-ac22-45244dad1fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Object\Gem">
+      <UniqueIdentifier>{25bf8d07-00db-4028-93d2-f5a4293c4f91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Maptool">
+      <UniqueIdentifier>{a9f95023-1c62-4d89-9913-84a791dc5b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Framework\Scene\Maptool\FirstScene">
+      <UniqueIdentifier>{03bb17ef-d1e5-42f6-bfb7-5df540ca2bef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bitmap.cpp">
+      <Filter>소스 파일\Framework\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDirector.cpp">
+      <Filter>소스 파일\Framework\GameDirector</Filter>
+    </ClCompile>
+    <ClCompile Include="PrepareWind.cpp">
+      <Filter>소스 파일\Framework\PrepareWind</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일\EmptyPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="WrappedWind.cpp">
+      <Filter>소스 파일\Framework\WrappedWind</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\Framework\Scene\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>소스 파일\Framework\Scene\MenuScene</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\Framework\Scene\GameScene</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>소스 파일\Framework\Scene\Object\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\Framework\Scene\Object\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>소스 파일\Framework\Scene\Object\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>소스 파일\Framework\Scene\Object\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Gem.cpp">
+      <Filter>소스 파일\Framework\Scene\Object\Gem</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstScene.cpp">
+      <Filter>소스 파일\Framework\Scene\Maptool\FirstScene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefine.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bitmap.h">
+      <Filter>소스 파일\Framework\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDirector.h">
+      <Filter>소스 파일\Framework\GameDirector</Filter>
+    </ClInclude>
+    <ClInclude Include="PrepareWind.h">
+      <Filter>소스 파일\Framework\PrepareWind</Filter>
+    </ClInclude>
+    <ClInclude Include="WrappedWind.h">
+      <Filter>소스 파일\Framework\WrappedWind</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\Framework\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\Framework\Scene\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>소스 파일\Framework\Scene\MenuScene</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>소스 파일\Framework\Scene\GameScene</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Framework\Scene\Object\AbstractClass</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>소스 파일\Framework\Scene\Object\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>소스 파일\Framework\Scene\Object\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>소스 파일\Framework\Scene\Object\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>소스 파일\Framework\Scene\Object\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Gem.h">
+      <Filter>소스 파일\Framework\Scene\Object\Gem</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstScene.h">
+      <Filter>소스 파일\Framework\Scene\Maptool\FirstScene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
